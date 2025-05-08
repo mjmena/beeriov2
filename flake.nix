@@ -42,13 +42,12 @@
             openssl
             wasm-bindgen-cli
             lld_20
+            tailwindcss_4
           ];
           nativeBuildInputs = with pkgs; [
             pkg-config
             gobject-introspection
-            cargo
-            cargo-tauri
-            nodejs
+            nodejs_latest
           ];
         in
         {
@@ -59,6 +58,8 @@
             inherit nativeBuildInputs;
             inherit buildInputs;
             packages = [
+              pkgs.just
+              pkgs.watchman
               pkgs.dioxus-cli
             ];
           };
