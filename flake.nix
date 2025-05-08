@@ -58,8 +58,8 @@
             inherit nativeBuildInputs;
             inherit buildInputs;
             packages = [
-              pkgs.just
               pkgs.watchman
+              pkgs.rustywind
               pkgs.dioxus-cli
             ];
           };

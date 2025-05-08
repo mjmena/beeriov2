@@ -1,0 +1,289 @@
+#################################################
+# Solo Missions
+
+#############################
+# Good Missions
+
+[[missions]]
+name = "Last Minute"
+description = "Drink only during the 3rd lap of each race."
+
+[[missions]]
+name = "Pacing"
+description = "*Must* have 5 gulps per race excluding last race."
+
+[[missions]]
+name = "Smuggler"
+description = "Finish *one* race holding or using a powerful item."
+details = ["Applicable items: Star, lightning, bullet bill, blue shell, golden mushroom, endless 8."]
+200cc_adjustment = "During a 6 race Gran Prix, complete the mission twice."
+
+[[missions]]
+name = "Janitor"
+description = "Clean up a number of stationary non-coin items equal to 2 times the number of races."
+200cc_adjustment = "The amount to clean up is equal to the number of races."
+
+[[missions]]
+name = "Forgot my Keys"
+description = "On each race, Starting after the drink line, you must touch twelfth place."
+200cc_adjustment = "During a 6 race Gran Prix, you must follow the rule in only 4 of those races."
+
+[[missions]]
+name = "Showboating"
+description = "Can only start drinking in 1st place."
+details = ["You can keep drinking even if you leave 1st place."]
+
+[[missions]]
+name = "Randomizer"
+description = "Use this random loadout:"
+needs_random_loadout = true
+
+[[missions]]
+name = "Sheep"
+description = "Can only start a drink after someone else puts down their drink."
+
+[[missions]]
+name = "Item Masher"
+description = "Hold every item for less than 2 seconds before using it."
+
+[[missions]]
+name = "Locked Out"
+description = "In only *half* of the races, you can't use your first item."
+
+[[missions]]
+name = "One in the Chamber"
+description = "Can't use any bullet bills."
+details = ["Lose them through getting shocked or ghosted."]
+
+[[missions]]
+name = "Stockpile"
+description = "Must always have a second item on hold before you hold or use an item."
+details = ["You can not use your item before picking up a double."]
+
+[[missions]]
+name = "Picky Drinker"
+description = "You can only drink while holding this random item:"
+needs_random_item = true
+
+[[missions]]
+name = "TheOddOne"
+description = "Start drinking in an odd numbered place, stop drinking in an odd numbered place."
+details = ["You're playing with fire if you are pushing on 11th."]
+
+[[missions]]
+name = "Pay to Win"
+description = "Drink while only at 10 coins."
+
+[[missions]]
+name = "Designated Driver"
+description = "Can only drink while Lakitu is carrying you."
+
+[[missions]]
+name = "Tavern Brawler"
+description = "This random race number is the only race you can drink your entire beer:"
+needs_random_number = 4
+
+[[missions]]
+name = "Masochist"
+description = "Designate a player at the start. Get hit by that player twice."
+details = ["Running into their hazardous behind counts."]
+
+[[missions]]
+name = "Gary Oak"
+description = "The first player who pisses you off during the Gran Prix is your rival. You must hit them 3 times."
+
+#############################
+# Niche Missions
+
+[[missions]]
+name = "Collateral Damage"
+description = "Get hit by a blue shell while it isn’t locked onto you, *or* get hit by a bullet bill."
+
+[[missions]]
+name = "Secret Santa"
+description = "Bestow 3 positive effects to others with any rotating item around you."
+details = ["This is a hard to see visual effect - the item isn't consumed."]
+
+[[missions]]
+name = "Pack Rat"
+description = "If you get 6th or 7th place in the Grand Prix, you win alongside the next best player."
+details = ["Deep inside, you didn't win."]
+
+[[missions]]
+name = "No One's Main"
+description = "Race using an inside-drifting bike."
+
+[[missions]]
+name = "Bumper Cars"
+description = "Must bump every player without any attacks from either side."
+
+[[missions]]
+name = "The Mark"
+description = "Mark-drift over 2 coin collections."
+details = ["Mark-drift: Pick up all coins (at least 3) from a string of coins designed to be picked up with proper steering/drifting."]
+
+[[missions]]
+name = "Sticky Keys"
+description = "Turn on auto accelerate. Your controller must be fully put down before drinking."
+
+[[missions]]
+name = "Watch Your Back"
+description = "While in first, you must toggle rear view camera at least every 2 seconds."
+
+[[missions]]
+name = "Double or Nothing"
+description = "You can not pick up single item containers."
+details = ["You can waive a single race. Save this for any mistakes."]
+200cc_adjustment = "During a 6 race Gran Prix, you waive two races instead."
+
+[[missions]]
+name = "Drowning in Sorrow"
+description = "You can only drink while submerged in water."
+
+#################################################
+# Coop Missions
+
+
+#############################
+# Co-op Gran Prix
+
+[[coop_granprix]]
+name = "Mission Marathon"
+description = "At the start of each race, attempt a single race mission."
+details = ["You lose if you fail *half or more* of these challenges."]
+needs_coop_singles = true
+
+[[coop_granprix]]
+name = "Mimicry"
+description = "Two players must finish with the exact same score."
+details = ["For the first half of the races, attempt a single race mission.", "You lose if you fail *more than half* of the single race challenges"]
+needs_coop_singles = true
+
+[[coop_granprix]]
+name = "Share in the Glory"
+description = "Each player must finish in first. Someone different must always place first."
+details = ["If races outnumber players, no player can have more than two firsts over another player."]
+
+[[coop_granprix]]
+name = "The Perfect Run"
+description = "One player must finish 1st in every race."
+
+[[coop_granprix]]
+name = "Cascade"
+description = "A drink session can only be started once each race. Only one person can drink at a time. When one person finishes, another can start."
+details = ["You can’t partake twice in the same session."]
+
+[[coop_granprix]]
+name = "With Friends Like These"
+description = "Every player must hit each other player once."
+
+[[coop_granprix]]
+name = "Jack of All Trades"
+description = "Every item must be used at least once."
+all_items = true
+
+[[coop_granprix]]
+name = "Blue%"
+description = "One player must dodge a blue shell."
+details = ["While in first, any item use that disrupts or avoids the blue shell counts."]
+
+[[coop_granprix]]
+name = "Identity Crisis"
+description = "Whenever a lightning bolt or blooper occurs, everyone must pass the controller to another player."
+
+[[coop_granprix]]
+name = "Collectathon"
+description = "At any point in the race, all players must have 10 coins at the same time."
+
+[[coop_granprix]]
+name = "Killing Spree (GP Edition)"
+description = "Computers must be hit a number of times equal to the number of players times 4."
+
+[[coop_granprix]]
+name = "Soul-locked Drinking (GP Edition)"
+description = "Everyone must drink at the same time."
+
+[[coop_granprix]]
+name = "Get Down Mr. President (GP Edition)"
+description = "Designate one player before the race starts. They can’t get hit more than 6 times *and* must finish 1st - 3rd by the end of the Gran Prix."
+details = ["Shocks don’t count - they are an aspect of nature."]
+
+[[coop_granprix]]
+name = "Tag Team (GP Edition)"
+description = "Break into pairs or triples. If you’re not leading, you must always have line of sight of another teammate."
+details = ["If you aren’t, the person leading must stop accelerating.", "At the start of each race, you can willingly keep or swap your partners."]
+
+[[coop_granprix]]
+name = "Squad Goals"
+description = "Every player must use the same random loadout."
+needs_random_loadout = true 
+
+#############################
+# Co-op Single Race
+
+[[coop_single]]
+name = "Clean Sweep"
+description = "All players must be in the top placements"
+details = ["Four players must finish as 1, 2, 3, and 4."]
+
+[[coop_single]]
+name = "Closing Time"
+description = "Everyone must finish their beer."
+
+[[coop_single]]
+name = "Shock%"
+description = "One player must shock dodge."
+
+[[coop_single]]
+name = "Initial D"
+description = "Each player must get 1 draft."
+
+[[coop_single]]
+name = "Apes Strong Together"
+description = "Each player must get fed 1 banana."
+details = ["The banana must be trailing a racer and not lying on the ground."]
+
+[[coop_single]]
+name = "Killing Spree"
+description = "Computers must be hit a number of times equal to the number of players times 2."
+
+[[coop_single]]
+name = "Bullying"
+description = "Designate one CPU before the race starts. They must get hit a number of times equal to the number of players."
+
+[[coop_single]]
+name = "Soul-locked Drinking"
+description = "Everyone must drink at the same time."
+
+[[coop_single]]
+name = "Get Down Mr. President"
+description = "Designate one player before the race starts. They can’t get hit more than 3 times *and* must finish 1st - 3rd."
+details = ["Shocks don’t count - they are an aspect of nature."]
+
+[[coop_single]]
+name = "Tag Team"
+description = "Break into pairs or triples. If you’re not leading, you must always have line of sight of another teammate."
+details = ["If you aren’t, the person leading must stop accelerating."]
+
+[[coop_single]]
+name = "Gacha Addict"
+description = "Collect 4 of these 7 rare items:"
+# Bomb, Horn, Boomerang, Fire, Piranha, Ghost, Crazy Eight
+needs_gacha_item_checklist = true
+
+[[coop_single]]
+name = "Hivemind"
+description = "Call out when using an item, everyone else must press the item button."
+
+[[coop_single]]
+name = "YOU - SHALL NOT - PASS"
+description = "Designate one player before the race starts. After the beer line, at no point can no other player pass the designated player."
+
+[[coop_single]]
+name = "Hand Holding"
+description = "Everyone must finish within 2 seconds of each other."
+details = ["Do this by waiting before the finish line on the 3rd lap."]
+
+[[coop_single]]
+name = "Waiting in Line"
+description = "While 1 player is using Bullet Bill, the other players can’t drive."
